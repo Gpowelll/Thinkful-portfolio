@@ -1,16 +1,12 @@
-.links {
-    margin: auto;
-    max-width: 150px;
-    height: auto;
-}
 
-.prof {
+
+.prof { /*This is the profile picture at the top */
     margin: auto;
     display: block;
     max-width: 75%;
 }
 
-.column {
+.column { /*This and .row::after made it possible to format the link icons at the bottom of the screen to external websites*/
     float: left;
     width: 33.33%;
     padding: 15px;
@@ -22,6 +18,13 @@
     content: "";
     clear: both;
     display: table;
+}
+
+h2 {
+    font-family: 'helvetica';
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgba(243, 232, 232, 0.918);
 }
 
 h3 {
@@ -42,6 +45,7 @@ h4 {
     line-height: 1cm;
     margin-top: -50px;
     text-align: center;
+    color: #606163;
 }
 
 .title {
@@ -61,32 +65,15 @@ footer {
     text-align: center;
 }
 
-h4 {
-    color: #606163;
-}
-
-h5 {
-    font-family: 'helvetica';
-    font-size: 40px;
-    letter-spacing: 1px;
-    color: rgba(243. 232, 232, 0.918);
-}
-
-h2 {
-    font-family: 'helvetica';
-    font-size: 40px;
-    letter-spacing: 2px;
-    color: rgba(243, 232, 232, 0.918);
-}
-
-p, li, ul, ol {
+p, li, ul, ol { /*All the styling for the two lists as well as the font in paragraphs */
     font-family: 'helvetica';
     line-height: 200%;
     color: #041229;
     font-size: 13px;
 }
 
-main {
+main { /* All of this padding gives the page a more modern and clean look than having the text go across a large portion
+    of the screen.*/
     padding: 90px 350px 20px 350px;
     background-color: rgba(180, 187, 189, 0.719);
     font-family: helvetica;
