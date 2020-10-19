@@ -4,6 +4,7 @@
     margin: auto;
     display: block;
     max-width: 75%;
+    height: auto;
 }
 
 .column { /*This and .row::after made it possible to format the link icons at the bottom of the screen to external websites*/
@@ -19,6 +20,19 @@
     clear: both;
     display: table;
 }
+
+a:link {
+    color: #04214e;
+  }
+  a:visited {
+    color: rgb(116, 60, 116);
+  }
+  a:link:hover {
+    color: rgb(252, 252, 252);
+  }
+  a:visited:hover {
+    color: rgb(246, 249, 250);
+  }
 
 h2 {
     font-family: 'helvetica';
